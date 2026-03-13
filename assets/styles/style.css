@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border: 3px solid red;
+  background-color: #d3d3d5;
+  font-size: 20px;
+  text-align: center;
+}
+
+caption {
+  color: red;
+}
+
+caption::after {
+  content: "#5";
+  color: #712abb;
+}
+
+th,
+td {
+  border: 2px solid blue;
+}
+
+th {
+  background-color: #fee4c3;
+  width: 125px;
+}
+
+th:first-child {
+  width: 50px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #bcb76a;
+}
+
+tbody td:first-child {
+  background-color: #01ffff;
+}
+
+tfoot td {
+  background-color: #ea967a;
+}
